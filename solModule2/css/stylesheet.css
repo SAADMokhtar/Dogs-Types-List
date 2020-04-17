@@ -5,14 +5,18 @@
 body {
 
 box-sizing: border-box;
-margin:0px;
-font-family: verdana,geogia ;
-font-size:15px;
+margin:0;
+font-family: geogia ;
+font-size:20px;
+
+height: 700px;
+width: 100%;
+
 
 }
 #header {
-	
-	margin:20px;
+	margin-bottom:60px;
+	margin-top: 30px;
 	text-align: center;
 	vertical-align:middle;
 	font-size:175%;
@@ -25,51 +29,35 @@ margin:0;
 h2{
 	text-align: center;
 	float: right;
-	width:30%;
+	width:35%;
 	margin: 0;
 	border: solid 2px black;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding: 10px 25px 10px 25px;
+	font-size: 125%;
 }
 .t1{background: cyan;}
 .t2{background: lime ;}
 .t3{background: olive;}
-
-
 @media (min-width: 992px) {
 
-
-
-.para1{
-	
-	background-color:silver;
+section{
+background-color:silver;
 	float: left;
-	margin:25px 25px 25px 25px;
+	border: solid 2px black;
 	width: 30%;
-	border: solid 2px black;
-	
-}
-.para2{
-	
-	background-color:silver;
-	float: left;
-	margin:25px 0px 25px 0px;
-	width: 30%;
-	border: solid 2px black;
-	
+	margin-top: 25px;
+	margin-bottom: 25px;
+   margin-left: 2.5%;
+
+
 }
 
-.para3{
-	
-	background-color:silver;
-	float: left;
-	margin:25px 25px 25px 25px;
-	width:30%;
-	border: solid 2px black;
-	
-}
+
+
+
+
+
+
 
 }
 
