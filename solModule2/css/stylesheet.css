@@ -1,0 +1,125 @@
+/* ============================LAYOUT SECTION ========*/
+
+
+
+body {
+
+box-sizing: border-box;
+margin:0px;
+font-family: verdana,geogia ;
+font-size:15px;
+
+}
+#header {
+	
+	margin:20px;
+	text-align: center;
+	vertical-align:middle;
+	font-size:175%;
+}
+p{
+clear: both;
+padding:20px ;
+margin:0;
+}
+h2{
+	text-align: center;
+	float: right;
+	width:30%;
+	margin: 0;
+	border: solid 2px black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.t1{background: cyan;}
+.t2{background: lime ;}
+.t3{background: olive;}
+
+
+@media (min-width: 992px) {
+
+
+
+.para1{
+	
+	background-color:silver;
+	float: left;
+	margin:25px 25px 25px 25px;
+	width: 30%;
+	border: solid 2px black;
+	
+}
+.para2{
+	
+	background-color:silver;
+	float: left;
+	margin:25px 0px 25px 0px;
+	width: 30%;
+	border: solid 2px black;
+	
+}
+
+.para3{
+	
+	background-color:silver;
+	float: left;
+	margin:25px 25px 25px 25px;
+	width:30%;
+	border: solid 2px black;
+	
+}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+.para1{
+	
+	background-color:silver;
+	float: left;
+	margin: 25px 0px 0px 25px;
+	
+	width: 44%;
+	border: solid 2px black;
+	
+}
+.para2{
+	background-color:silver;
+	float: right;
+	
+	margin: 25px 25px 0px 0px;
+	width: 44%;
+	border: solid 2px black;
+	
+}
+.para3{
+	
+	background-color:silver;
+	float: left;
+	margin:25px;
+	border: solid 2px black;
+	
+}
+
+
+
+
+
+}
+@media(max-width: 767px) {
+
+	.para1,.para2,.para3{
+	
+	background-color:silver;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	max-width: 90%;
+	border: solid 2px black;
+	
+}
+}
