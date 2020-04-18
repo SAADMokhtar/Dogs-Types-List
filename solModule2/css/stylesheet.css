@@ -5,110 +5,82 @@
 body {
 
 box-sizing: border-box;
-margin:0;
+margin:0px;
 font-family: geogia ;
-font-size:20px;
-
-height: 700px;
-width: 100%;
-
+font-size:18px;
 
 }
 #header {
-	font-family: Fantasy;
-	margin-bottom:60px;
-	margin-top: 30px;
+	
+	margin:20px;
 	text-align: center;
-	vertical-align:middle;
+	font-family: fantasy;
 	font-size:175%;
 }
-p{
-clear: both;
-padding:20px ;
-margin:0;
-}
+
 h2{
+	font-size: 125%;
 	text-align: center;
 	float: right;
 	width:35%;
 	margin: 0;
 	border: solid 2px black;
-	padding: 10px 25px 10px 25px;
-	font-size: 125%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 .t1{background: cyan;}
 .t2{background: lime ;}
 .t3{background: olive;}
+p{  
+	clear: both;
+	padding: 5%;
+	width: 90%;
+	}
+
+.row{
+	width: 100%;
+	
+}
+/******largest devices only ****/
+
 @media (min-width: 992px) {
 
-section{
-background-color:silver;
-	float: left;
-	border: solid 2px black;
-	width: 30%;
-	margin-top: 25px;
-	margin-bottom: 25px;
-   margin-left: 2.5%;
 
-
+.col-lg-4{
+	float:left;
+	border: 1px solid black;
+	margin: 0.55%;
+	background-color:silver;
+	width: 32%;
 }
 
-
-
-
-
-
-
-
 }
-
+/******Medium devices only ****/
 @media(min-width: 768px) and (max-width: 991px){
 
-.para1{
-	
+.col-md-6,.col-md-12{
+	float:left;
+	border: 1px solid black;
+	margin:0.7%;
 	background-color:silver;
-	float: left;
-	margin: 25px 0px 0px 25px;
-	
-	width: 44%;
-	border: solid 2px black;
-	
-}
-.para2{
-	background-color:silver;
-	float: right;
-	
-	margin: 25px 25px 0px 0px;
-	width: 44%;
-	border: solid 2px black;
-	
-}
-.para3{
-	
-	background-color:silver;
-	float: left;
-	margin:25px;
-	border: solid 2px black;
-	
-}
-
-
-
 
 
 }
-@media(max-width: 767px) {
 
-	.para1,.para2,.para3{
-	
-	background-color:silver;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 25px;
-	margin-top: 25px;
-	max-width: 90%;
-	border: solid 2px black;
-	
+.col-md-6{
+	width: 48%;
 }
+.col-md-12{
+	width: 98%;
+}
+}
+/******small devices only ****/
+@media(max-width: 768px) {
+.col-lg-4{
+	background-color: silver; 
+	border: 1px solid black;
+	margin: 2%;
+	
 }
